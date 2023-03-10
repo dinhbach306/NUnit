@@ -1,0 +1,31 @@
+﻿<wpf:ResourceDictionary xml:space="preserve" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:s="clr-namespace:System;assembly=mscorlib" xmlns:ss="urn:shemas-jetbrains-com:settings-storage-xaml" xmlns:wpf="http://schemas.microsoft.com/winfx/2006/xaml/presentation">
+	<s:String x:Key="/Default/Environment/AssemblyExplorer/XmlDocument/@EntryValue">&lt;AssemblyExplorer&gt;&#xD;
+  &lt;Assembly Path="C:\Users\ADMIN\Desktop\Practice\Project\CRUDTesting-main\FsoftTest\bin\Debug\net6.0\FsoftTest.dll" /&gt;&#xD;
+&lt;/AssemblyExplorer&gt;</s:String>
+	<s:String x:Key="/Default/Environment/Highlighting/HighlightingSourceSnapshotLocation/@EntryValue">C:\Users\ADMIN\AppData\Local\JetBrains\Rider2022.3\resharper-host\temp\Rider\vAny\CoverageData\_Assignment_02_SalesManagement_Team_4.1950542251\Snapshot\snapshot.utdcvr</s:String>
+	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=396707bd_002Dc257_002D4e46_002D85d9_002D3a9f6c1a9bfa/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" Name="TestGetMemberById_ValidId_ReturnsMember" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;&#xD;
+  &lt;TestAncestor&gt;&#xD;
+    &lt;TestId&gt;NUnit3x::39251A8D-4167-46F3-B184-F622C6E34695::net6.0::FsoftTest.Tests.TestGetMemberById_ValidId_ReturnsMember&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;NUnit3x::39251A8D-4167-46F3-B184-F622C6E34695::net6.0::FsoftTest.ParameterizedTestFixture&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;NUnit3x::39251A8D-4167-46F3-B184-F622C6E34695::net6.0::FsoftTest.Tests.TestCheckLogin_ValidCredentials_ReturnsMemberV2&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;NUnit3x::39251A8D-4167-46F3-B184-F622C6E34695::net6.0::FsoftTest.Tests.TestCheckLogin_ValidCredentials_ReturnsMember&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;NUnit3x::39251A8D-4167-46F3-B184-F622C6E34695::net6.0::FsoftTest.Tests&lt;/TestId&gt;&#xD;
+  &lt;/TestAncestor&gt;&#xD;
+&lt;/SessionState&gt;</s:String>
+	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=7518fa85_002Dd120_002D424a_002Db043_002D4fcd5621ee44/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" IsActive="True" Name="ParameterizedTestFixture" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;&#xD;
+  &lt;TestAncestor&gt;&#xD;
+    &lt;TestId&gt;NUnit3x::39251A8D-4167-46F3-B184-F622C6E34695::net6.0::FsoftTest.ParameterizedTestFixture&lt;/TestId&gt;&#xD;
+  &lt;/TestAncestor&gt;&#xD;
+&lt;/SessionState&gt;</s:String>
+	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=a2df8131_002Dc35e_002D43f5_002Dba71_002D03ebbf3549fc/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" Name="TestGetMemberById_ValidId_ReturnsMember #2" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;&#xD;
+  &lt;TestAncestor&gt;&#xD;
+    &lt;TestId&gt;NUnit3x::39251A8D-4167-46F3-B184-F622C6E34695::net6.0::FsoftTest.Tests.TestGetMemberById_ValidId_ReturnsMember&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;NUnit3x::39251A8D-4167-46F3-B184-F622C6E34695::net6.0::FsoftTest.Tests.TestAddMember_NewMember_AddsMemberToDatabase&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;NUnit3x::39251A8D-4167-46F3-B184-F622C6E34695::net6.0::FsoftTest.Tests.TestGetMemberByEmail_ValidEmail_ReturnsMemberID&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;NUnit3x::39251A8D-4167-46F3-B184-F622C6E34695::net6.0::FsoftTest.Tests.TestGetAllMember_ReturnsAllMembers&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;NUnit3x::39251A8D-4167-46F3-B184-F622C6E34695::net6.0::FsoftTest.Tests.TestUpdateMember_ExistingMember_UpdatesMember_ByIdInDatabase&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;NUnit3x::39251A8D-4167-46F3-B184-F622C6E34695::net6.0::FsoftTest.Tests.TestUpdateMember_ExistingMember_UpdatesMember_InDatabase&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;NUnit3x::39251A8D-4167-46F3-B184-F622C6E34695::net6.0::FsoftTest.Tests.TestRemoveMember_ExistingMember_RemovesMemberFromDatabase&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;NUnit3x::39251A8D-4167-46F3-B184-F622C6E34695::net6.0::FsoftTest.ParameterizedTestFixture&lt;/TestId&gt;&#xD;
+  &lt;/TestAncestor&gt;&#xD;
+&lt;/SessionState&gt;</s:String></wpf:ResourceDictionary>

@@ -1,0 +1,21 @@
+﻿{
+  "MemberInputParam": [
+    {
+      "Email": "bao@fstore.com",
+      "Password": "1",
+      "Actual": "bao@fstore.com"
+    },
+
+    {
+      "Email": "ngoc@fstore.com",
+      "Password": "1",
+      "Actual": "ngoc@fstore.com"
+    },
+
+    {
+      "Email": "admin@fstore.com",
+      "Password": "admin@@",
+      "Actual": "admin@fstore.com"
+    }
+  ]
+}
