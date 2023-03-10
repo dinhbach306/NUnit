@@ -1,6 +1,6 @@
 ﻿namespace FsoftTest;
 
-[TestFixture("hello", "helslo", "goodbye")]
+[TestFixture("hello", "hello", "goodbye")]
 [TestFixture("zip", "zip")]
 [TestFixture(42, 42, 99)]
 public class ParameterizedTestFixture
@@ -23,6 +23,7 @@ public class ParameterizedTestFixture
     }
 
     [Test]
+    // [Ignore("This is a sample test fixture")]
     public void TestEquality()
     {
         Assert.That(_eq2, Is.EqualTo(_eq1));

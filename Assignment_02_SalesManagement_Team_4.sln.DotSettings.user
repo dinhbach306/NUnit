@@ -12,12 +12,12 @@
     &lt;TestId&gt;NUnit3x::39251A8D-4167-46F3-B184-F622C6E34695::net6.0::FsoftTest.Tests&lt;/TestId&gt;&#xD;
   &lt;/TestAncestor&gt;&#xD;
 &lt;/SessionState&gt;</s:String>
-	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=7518fa85_002Dd120_002D424a_002Db043_002D4fcd5621ee44/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" IsActive="True" Name="ParameterizedTestFixture" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;&#xD;
+	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=7518fa85_002Dd120_002D424a_002Db043_002D4fcd5621ee44/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" Name="ParameterizedTestFixture" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;&#xD;
   &lt;TestAncestor&gt;&#xD;
     &lt;TestId&gt;NUnit3x::39251A8D-4167-46F3-B184-F622C6E34695::net6.0::FsoftTest.ParameterizedTestFixture&lt;/TestId&gt;&#xD;
   &lt;/TestAncestor&gt;&#xD;
 &lt;/SessionState&gt;</s:String>
-	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=a2df8131_002Dc35e_002D43f5_002Dba71_002D03ebbf3549fc/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" Name="TestGetMemberById_ValidId_ReturnsMember #2" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;&#xD;
+	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=a2df8131_002Dc35e_002D43f5_002Dba71_002D03ebbf3549fc/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" IsActive="True" Name="TestGetMemberById_ValidId_ReturnsMember #2" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;&#xD;
   &lt;TestAncestor&gt;&#xD;
     &lt;TestId&gt;NUnit3x::39251A8D-4167-46F3-B184-F622C6E34695::net6.0::FsoftTest.Tests.TestGetMemberById_ValidId_ReturnsMember&lt;/TestId&gt;&#xD;
     &lt;TestId&gt;NUnit3x::39251A8D-4167-46F3-B184-F622C6E34695::net6.0::FsoftTest.Tests.TestAddMember_NewMember_AddsMemberToDatabase&lt;/TestId&gt;&#xD;
@@ -27,5 +27,9 @@
     &lt;TestId&gt;NUnit3x::39251A8D-4167-46F3-B184-F622C6E34695::net6.0::FsoftTest.Tests.TestUpdateMember_ExistingMember_UpdatesMember_InDatabase&lt;/TestId&gt;&#xD;
     &lt;TestId&gt;NUnit3x::39251A8D-4167-46F3-B184-F622C6E34695::net6.0::FsoftTest.Tests.TestRemoveMember_ExistingMember_RemovesMemberFromDatabase&lt;/TestId&gt;&#xD;
     &lt;TestId&gt;NUnit3x::39251A8D-4167-46F3-B184-F622C6E34695::net6.0::FsoftTest.ParameterizedTestFixture&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;NUnit3x::39251A8D-4167-46F3-B184-F622C6E34695::net6.0::FsoftTest.ProDuctDAO_Test.TestAddProduct&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;NUnit3x::39251A8D-4167-46F3-B184-F622C6E34695::net6.0::FsoftTest.ProDuctDAO_Test.TestDeleteProduct&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;NUnit3x::39251A8D-4167-46F3-B184-F622C6E34695::net6.0::FsoftTest.ProDuctDAO_Test.Test_Sort_UnitPrice&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;NUnit3x::39251A8D-4167-46F3-B184-F622C6E34695::net6.0::FsoftTest.ProDuctDAO_Test&lt;/TestId&gt;&#xD;
   &lt;/TestAncestor&gt;&#xD;
 &lt;/SessionState&gt;</s:String></wpf:ResourceDictionary>

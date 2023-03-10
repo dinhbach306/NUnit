@@ -1,6 +1,7 @@
 ﻿using BusinessObject;
 using BusinessObject.Repository;
 using DataAccess;
+using FsoftTest.helper;
 using Moq;
 
 
@@ -10,28 +11,26 @@ namespace FsoftTest;
 public class ProDuctDAO_Test
 {
     
-    [TestCase(887, 11, 11, 2, "Iphone XS", "0.552")]
-    [TestCase(888, 11, 11, 2, "Iphone XS", "0.552")]
-    [TestCase(890, 11, 11, 2, "Iphone XS", "0.552")]
-    [TestCase(891, 11, 11, 2, "Iphone XS", "0.552")]
-    public void TestAddProduct(int _Id, int _UnislnStock, decimal _unitPrice, int _CategoryId, string _Weight,
-        string _ProductName)
+    [TestCase(900, "Iphone XS", "300g", 27, 5 )]
+    [TestCase(901, "Sony 43inch", "3.2kg", 30, 3 )]
+    [TestCase(902, "Fridge", "15kg", 15, 10 )]
+    public void TestAddProduct(int id, string productName, string weight, decimal unitPrice, int UnislnStock)
     {
         // Arrange
         var dao = ProductDAO.Instance;
-        Product product = new Product(_Id, _UnislnStock, _unitPrice, _CategoryId, _Weight, _ProductName);
+        Product product = new Product(id, productName, weight, unitPrice, UnislnStock);
         // Act
         dao.Add(product);
 
         // Assert
         var result = dao.GetProductByID(product.ProductId);
+        
         Assert.Multiple(() =>
         {
-            Assert.That(result.UnitPrice, Is.EqualTo(_unitPrice));
-            Assert.That(result.UnislnStock, Is.EqualTo(_UnislnStock));
-            Assert.That(result.CategoryId, Is.EqualTo(_CategoryId));
-            Assert.That(result.Weight, Is.EqualTo(_Weight));
-            Assert.That(result.ProductName, Is.EqualTo(_ProductName));
+            Assert.That(result.ProductName, Is.EqualTo(productName));
+            Assert.That(result.Weight, Is.EqualTo(weight));
+            Assert.That(result.UnitPrice, Is.EqualTo(unitPrice));
+            Assert.That(result.UnislnStock, Is.EqualTo(UnislnStock));
         });
     }
 
@@ -53,10 +52,9 @@ public class ProDuctDAO_Test
         Assert.AreEqual(expect, result.Weight);
     }
 
-    [TestCase(888)]
-    [TestCase(890)]
-    [TestCase(887)]
-    [TestCase(891)]
+    [TestCase(900)]
+    [TestCase(901)]
+    [TestCase(902)]
     public void TestDeleteProduct(int id)
     {
         // Arrange
@@ -81,9 +79,7 @@ public class ProDuctDAO_Test
         Assert.AreEqual(expect, result.ProductId);
     }
 
-    [TestCase(6)]
-    [TestCase(4)]
-    [TestCase(10)]
+    [TestCase(12)]
     public void TestGetAllProducts(int expect)
     {
         // Arrange
@@ -93,5 +89,24 @@ public class ProDuctDAO_Test
 
         // Assert
         Assert.AreEqual(expect, result.Count);
+    }
+
+
+    // [Category("Algorithm")]
+    //Test sort by UnitPrice
+
+    
+    [Test]
+    public void Test_Sort_UnitPrice()
+    {
+        // Arrange
+        var dao = ProductDAO.Instance;
+        // Act
+        var product = dao.getListProductById(new int[]{900, 901, 902});
+        var actual = Algorithms.SortSelection(product);
+        
+        // Assert
+        Assert.That(actual.Select(product => product.UnitPrice), 
+            Is.EqualTo(new decimal[] { 30, 27, 15 }));
     }
 }

@@ -21,6 +21,15 @@ namespace DataAccess
             this.UnitPrice = _unitPrice;
             this.UnislnStock = _UnislnStock;
         }
+        
+        public Product(int id, string productName, string weight, decimal unitPrice, int UnislnStock)
+        {
+            this.ProductId = id;
+            this.ProductName = productName;
+            this.Weight = weight;
+            this.UnitPrice = unitPrice;
+            this.UnislnStock = UnislnStock;
+        }
 
         public int ProductId { get; set; }
         public int CategoryId { get; set; }

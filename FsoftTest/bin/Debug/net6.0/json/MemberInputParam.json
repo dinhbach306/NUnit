@@ -17,5 +17,31 @@
       "Password": "admin@@",
       "Actual": "admin@fstore.com"
     }
+  ],
+  
+  "Product": [
+    [
+      {
+        "ProductId": 901,
+        "ProductName": "Sony 43inch",
+        "Weight": "3.2kg",
+        "UnitPrice": 30,
+        "UnislnStock": 3
+      },
+      {
+        "ProductId": 902,
+        "ProductName": "Iphone XS",
+        "Weight": "300g",
+        "UnitPrice": 27,
+        "UnislnStock": 5
+      },
+      {
+        "ProductId": 903,
+        "ProductName": "Fridge",
+        "Weight": "15kg",
+        "UnitPrice": 15,
+        "UnislnStock": 10
+      }
+    ]
   ]
 }

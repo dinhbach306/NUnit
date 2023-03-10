@@ -75,5 +75,21 @@ namespace BusinessObject
                 return db.Products.ToList();
             }
         }
+        
+        public List<Product> SortByUnitPrice()
+        {
+            using (var db = new FstoreContext())
+            {
+                return db.Products.OrderBy(p => p.UnitPrice).ToList();
+            }
+        }
+        
+        public List<Product> getListProductById(int[] id)
+        {
+            using (var db = new FstoreContext())
+            {
+                return db.Products.Where(p => id.Contains(p.ProductId)).ToList();
+            }
+        }
     }
 }
